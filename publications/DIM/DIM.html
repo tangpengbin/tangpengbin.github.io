@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>Beyond Chainmail: Computational Modeling of Discrete Interlocking Materials</title>
+
+    <link rel="stylesheet" href="./project_files/css/styles.css" />
+
+</head>
+
+<body>
+    <div id="mainColumn">
+        <div class="publication-header"><a>ACM Transactions on Graphics (Proc. ACM SIGGRAPH 2023), 42(4)</a></div>
+        <h1>Beyond Chainmail: Computational Modeling of Discrete Interlocking Materials</h1>
+        <div class="authorBlock">
+            <div class="author"><a href="https://tangpengbin.github.io/">Pengbin Tang</a></div>
+            <div class="affiliation">Université de Montréal</div>
+            <div class="affiliation">ETH Zürich</div>
+        </div>
+        <div class="authorBlock">
+            <div class="author"><a href="http://crl.ethz.ch/people/coros/index.html">Stelian Coros</a></div>
+            <div class="affiliation">ETH Zürich</div>
+
+        </div>
+        <div class="authorBlock">
+            <div class="author"><a href="https://n.ethz.ch/~bthomasz/index.html">Bernhard Thomaszewski</a></div>
+            <div class="affiliation">ETH Zürich</div>
+        </div>
+        <div style="clear: both;"></div>
+
+        <img src="./project_files/images/teaser.png" width="780">
+        <p>
+            Fig. 1. Discrete Interlocking Materials are governed by strongly coupled, highly anisotropic, and asymmetric deformation limits.
+            Our method is able to capture and reproduce these effects for many types of interlocking materials (a). Using native-scale
+            simulations as a basis (b), we construct macromechanical deformation limits on bending and stretching (c) which we use to
+            develop an efficient macro-scale simulation model (d).
+        </p>
+
+        <h2>Abstract</h2>
+        We present a method for computational modeling, mechanical characterization,
+        and macro-scale simulation of discrete interlocking materials (DIM)---3D-printed
+        chainmail fabrics made of quasi-rigid interlocking elements. Unlike conventional
+        elastic materials for which deformation and restoring force are directly coupled,
+        the mechanics of DIM are governed by contacts between individual elements that
+        give rise to anisotropic deformation constraints. To model the mechanical
+        behavior of these materials, we propose a computational approach that builds on
+        three key components. (a): we explore the space of feasible deformations using
+        native-scale simulations at the per-element level. (b): based on this simulation
+        data, we introduce the concept of strain-space boundaries to represent deformation
+        limits for in- and out-of-plane deformations, and (c): we use the strain-space
+        boundaries to drive an efficient macro-scale simulation model based on homogenized
+        deformation constraints. We evaluate our method on a set of representative discrete
+        interlocking materials and validate our findings against measurements on physical prototypes.
+        <h2>Materials</h2>
+        <iframe width="784" height="441" src="https://www.youtube.com/embed/e1h2C8uk6SU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <div class="link"><a href="./project_files/DIM_SIGGRAPH2023_Author_Version.pdf"><img src="../common_images/pdf-icon.png"></a> <a href="./project_files/DIM_SIGGRAPH2023_Author_Version.pdf">Paper</a></div>
+        <div class="link"><a href="https://youtu.be/e1h2C8uk6SU"><img src="../common_images/youtube-icon.png"></a> <a href="https://youtu.be/e1h2C8uk6SU">Video (Youtube)</a></div>
+        <div class="link"><a href="./project_files/DIM_SIGGRAPH2023_SupplementaryMaterial.zip"><img src="../common_images/document-icon.png"></a> <a href="./project_files/DIM_SIGGRAPH2023_SupplementaryMaterial.zip">Supplemental Materials</a></div>
+
+        <h2>Acknowledgments</h2>
+        We would like to thank Charles Gingras for the valuable discussion, and Ronan Hinchet
+        for helping with the measuring setup and fabricating some of the physical prototypes.
+        We are also grateful to the anonymous reviewers for their valuable comments. This work
+        was supported by the Discovery Grants Program and the Discovery Accelerator Awards 
+        program of the Natural Sciences and Engineering Research Council of Canada (NSERC).
+        Computing equipment has been funded through an infrastructure grant from the Canada 
+        Foundation for Innovation (CFI). This work was also supported by the European Research 
+        Council (ERC) under the European Union’s Horizon 2020 research and innovation program 
+        (grant agreement No. 866480), and the Swiss National Science Foundation through SNF 
+        project grant 200021_200644.
+
+    </div>
+
+
+</body>
+
+</html>
