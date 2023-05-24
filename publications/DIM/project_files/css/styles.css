@@ -60,9 +60,9 @@ body {
     height: 100%;
 }
 body {
-	background-image: url("../images/background.png");
-    background-repeat: repeat-y;
-	background-position: center; 
+	background-image: url("../../../common_images/background.png");
+	background-repeat: repeat-y;
+	background-position: center;
 	background-color: #f4f3f3;
 	font-size: 80%;
 }
