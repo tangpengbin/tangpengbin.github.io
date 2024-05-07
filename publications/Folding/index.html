@@ -1,0 +1,115 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>
+        Modal Folding: Discovering Smooth Folding Patterns for Sheet Materials using Strain-Space Modes
+    </title>
+
+    <link rel="stylesheet" href="./project_files/css/styles.css" />
+
+</head>
+
+<body>
+    <div id="mainColumn">
+        <div class="publication-header"><a>ACM SIGGRAPH 2024, Denver, CO, USA</a></div>
+        <h1>Modal Folding: Discovering Smooth Folding Patterns for Sheet Materials using Strain-Space Modes</h1>
+        <div class="authorBlock">
+            <div class="author"><a href="https://tangpengbin.github.io/">Pengbin Tang</a></div>
+            <div class="affiliation">ETH Zürich</div>
+            <div class="affiliation">Université de Montréal</div>
+        </div>
+        <div class="authorBlock">
+            <div class="author"><a href="https://scholar.google.co.kr/citations?user=L-mz4LIAAAAJ&hl=en">Ronan Hinchet</a></div>
+            <div class="affiliation">ETH Zürich</div>
+        </div>
+        <div class="authorBlock">
+            <div class="author"><a href="https://scholar.google.com/citations?user=xC6XLaYAAAAJ&hl=en">Roi Poranne</a></div>
+            <div class="affiliation">ETH Zürich</div>
+            <div class="affiliation">University of Haifa</div>
+        </div>
+        <div class="authorBlock" style="width:390px;">
+            <div class="author"><a href="https://n.ethz.ch/~bthomasz/index.html">Bernhard Thomaszewski</a></div>
+            <div class="affiliation">ETH Zürich</div>
+        </div>
+        <div class="authorBlock" style="width:390px;">
+            <div class="author"><a href="http://crl.ethz.ch/people/coros/index.html">Stelian Coros</a></div>
+            <div class="affiliation">ETH Zürich</div>
+
+        </div>
+        <div style="clear: both;"></div>
+
+        <div class="abstractAlighedTeaser">
+            <img src="./project_files/images/teaser.jpg" width="390">
+            <p style="width:390px;">
+                Fig. 1. Our method automatically generates a diverse set of folding patterns using strain-space modes.
+                Here we show a particular folding transformation for a square sheet of fabric and its physical prototype (bottom right).
+            </p>
+        </div>
+
+        <h2>Abstract</h2>
+        Folding can transform mundane objects such as napkins into stunning works of art.
+        However, finding new folding transformations for sheet materials is a challenging
+        problem that requires expertise and real-world experimentation. In this paper, we
+        present Modal Folding---an automated approach for discovering energetically optimal
+        folding transformations, i.e., large deformations that require little mechanical work.
+        For small deformations, minimizing internal energy for fixed displacement magnitudes
+        leads to the well-known elastic eigenmodes. While linear modes provide promising directions
+        for bending, they cannot capture the rotational motion required for folding. To overcome
+        this limitation, we introduce strain-space modes---nonlinear analogues of elastic
+        eigenmodes that operate on per-element curvatures instead of vertices. Using strain-space
+        modes to determine target curvatures for bending elements, we can generate complex nonlinear
+        folding motions by simply minimizing the sheet's internal energy. Our modal folding
+        approach offers a systematic and automated way to create complex designs. We demonstrate
+        the effectiveness of our method with simulation results for a range of shapes and
+        materials, and validate our designs with physical prototypes.
+
+
+
+        <h2>Results</h2>
+
+        <div class="parallelImages">
+            <img src="./project_files/images/CopperSheets.jpg" width="390">
+            <p style="width:390px;">
+                Fig. 2. Periodic folding patterns obtained using Modal Folding (a-e) with reflection boundary conditions and their
+                corresponding physical prototypes (right) manufactured using copper sheets and 3D-printed press dies.
+            </p>
+        </div>
+        <div class="parallelImages">
+            <img src="./project_files/images/LifeFlower.png" width="390">
+            <p style="width:390px;">
+                Fig. 6. Folding patterns for a thin sheet cut into the pattern of a life flower.
+            </p>
+        </div>
+
+
+        <div style="clear: both;"></div>
+
+
+        <h2>Materials</h2>
+        <iframe width="784" height="441" src="https://www.youtube.com/embed/L-JB8Totg8A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <div class="link"><a href="./project_files/ModalFolding_SIGGRAPH2024_AuthorVersion.pdf"><img src="../common_images/pdf-icon.png"></a> <a href="./project_files/ModalFolding_SIGGRAPH2024_AuthorVersion.pdf">Paper (33 MB)</a></div>
+        <div class="link"><a href="./project_files/ModalFolding_SIGGRAPH2024_supplementaryMaterial_AuthorVersion.pdf"><img src="../common_images/pdf-icon.png"></a> <a href="./project_files/ModalFolding_SIGGRAPH2024_supplementaryMaterial_AuthorVersion.pdf">Supplemental Materials (15 MB)</a></div>
+        <div class="link"><a href="https://youtu.be/L-JB8Totg8A"><img src="../common_images/youtube-icon.png"></a> <a href="https://youtu.be/L-JB8Totg8A">Video (Youtube)</a></div>
+        <div class="link"><a href="https://youtu.be/e_qinQKIEN8"><img src="../common_images/youtube-icon.png"></a> <a href="https://youtu.be/e_qinQKIEN8">Supplementary Video (Youtube)</a></div>
+
+        <h2>Supplementary Video</h2>
+        <iframe width="784" height="441" src="https://www.youtube.com/embed/e_qinQKIEN8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+
+        <h2>Acknowledgments</h2>
+
+        The authors thank the anonymous reviewers for their valuable feedback. This work was
+        supported by the European Research Council (ERC) under the European Union’s Horizon
+        2020 research and innovation program (grant agreement No.866480), and the Swiss
+        National Science Foundation through SNF project grant 200021_200644.
+
+    </div>
+
+
+</body>
+
+</html>
